@@ -7,6 +7,7 @@
 // 운영진 비밀번호는 예전엔 사이트 코드 안의 해시와 맞춰봤는데, 그건 감추기일 뿐이라
 // 이제 워커 시크릿(ADMIN_PW)과 맞춘다. 사이트는 입력값을 들고 있다가 헤더로 보낼 뿐이다.
 import { WORKER_URL } from './data/config'
+import { hasAdminAccess } from './guestAccess'
 
 const TOKEN_KEY = 'sena-guild-war:token'
 const NAME_KEY = 'sena-guild-war:me'
@@ -48,13 +49,13 @@ export const isLoggedIn = () => !base() || !!getToken()
  * 전까지 쓰라고 둔 장치인데, 게이트가 열린 순간에는 '안 들어온 사람'이 곧
  * '운영진'이 되는 뒤집힌 판정이 된다. 모르면 닫는 쪽으로 바꾼다.
  */
-export const isStaff = () => (!base() ? localDev() : read(STAFF_KEY) === '1')
+export const isStaff = () => (!base() ? (localDev() || hasAdminAccess()) : read(STAFF_KEY) === '1')
 
 /**
  * 사이트 관리자인가 — 게임 안 직책과 별개로 지정한다.
  * 길드마스터가 바뀌어도 사이트를 관리하던 사람은 그대로 남는다.
  */
-export const isSiteAdmin = () => (!base() ? localDev() : read(SADMIN_KEY) === '1')
+export const isSiteAdmin = () => (!base() ? (localDev() || hasAdminAccess()) : read(SADMIN_KEY) === '1')
 
 // 권한이 바뀌면 화면을 다시 그려야 한다 (메뉴가 늘거나 준다)
 type RoleListener = () => void
