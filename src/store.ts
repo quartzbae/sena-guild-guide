@@ -7,11 +7,12 @@ import type { ArenaEntry, CounterDeck, CounterEntry, CounterHeroSlot, Hero, Memb
 import initialHeroes from './data/heroes.json'
 import initialCounters from './data/counters.json'
 import initialArena from './data/arena.json'
+import initialMembers from './data/members.json'
 import { WORKER_URL } from './data/config'
 import { applyRole, authHeaders, authLost, isStaff } from './session'
 
 // 운영 공유 저장소에서 받은 예전 사본과 격리한 새 로컬 저장 공간.
-const LS_KEY = 'sena-guild-war:v2'
+const LS_KEY = 'sena-guild-war:v3'
 const REV_KEY = 'sena-guild-war:rev'
 
 const EMPTY: UserData = {
@@ -19,7 +20,7 @@ const EMPTY: UserData = {
   counters: [],
   hiddenCounterIds: [],
   savedDecks: [],
-  members: [],
+  members: initialMembers as Member[],
   customGuides: [],
   arenaEntries: [],
   hiddenArenaIds: [],
@@ -277,7 +278,7 @@ export function sharedMode(): boolean {
  * 로그인한 길드원이면 누구나 된다.
  */
 export function canEdit(): boolean {
-  return true
+  return sharedMode() ? true : isStaff()
 }
 
 /**

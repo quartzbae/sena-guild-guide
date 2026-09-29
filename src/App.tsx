@@ -13,8 +13,10 @@ import { WarDefensePage } from './pages/WarDefense'
 import { WarAttackPage } from './pages/WarAttack'
 import { isAdmin } from './auth'
 import { MemberLoginPage } from './pages/MemberLogin'
+import { GuestLoginPage } from './pages/GuestLogin'
 import { clearSession, isLoggedIn, isStaff, logoutAll, onAuthLost, onRoleChange } from './session'
-import { clearSaveError, useGuildName, useSaveError } from './store'
+import { clearSaveError, sharedMode, useGuildName, useSaveError } from './store'
+import { clearGuestAccess, hasGuestAccess } from './guestAccess'
 
 interface MenuItem {
   route: string
@@ -176,7 +178,7 @@ function Sidebar({
   onToggle: () => void
   onLogout: () => void
   /** 모든 기기에서 로그아웃 — 잃어버린 폰·공용 PC 에 남은 로그인까지 끊는다 */
-  onLogoutAll: () => void
+  onLogoutAll?: () => void
 }) {
   const navRef = useRef<HTMLElement | null>(null)
   const [ind, setInd] = useState<{ y: number; h: number } | null>(null)
@@ -288,7 +290,7 @@ function Sidebar({
             <span className="side-label">로그아웃</span>
           </button>
         )}
-        {loggedIn && (
+        {loggedIn && onLogoutAll && (
           <button className="side-item side-lock" onClick={onLogoutAll} aria-label="모든 기기에서 로그아웃"
             {...flyoutProps('모든 기기에서 로그아웃')}>
             <Icon name="users" className="ic" />
@@ -315,6 +317,7 @@ export default function App() {
   const [sideMode, toggleSide] = useSidebarMode()
   const [theme, toggleTheme] = useTheme()
   const guildName = useGuildName()
+  const [guestAllowed, setGuestAllowed] = useState(hasGuestAccess)
 
   // 브라우저 탭 제목 — index.html에 박힌 기본 제목을 길드 이름으로 덮는다
   useEffect(() => { document.title = `${guildName} · 세나 리버스 길드` }, [guildName])
@@ -347,9 +350,16 @@ export default function App() {
    * 탭만 닫고 자리를 뜨면 다음 사람이 그대로 그 사람 계정이 됐다.
    */
   function doLogout() {
+    clearGuestAccess()
     clearSession()      // 토큰 · 이름 · 권한 플래그 · 워커 비번 · 공유 데이터 사본
     location.hash = '#/home'
     location.reload()   // 메모리에 남은 상태까지 확실히 턴다
+  }
+
+  // DB를 연결하지 않은 정적 배포에서는 지인용 공용 비밀번호 화면을 먼저 보여준다.
+  // sessionStorage를 사용하므로 브라우저를 닫으면 다음 접속 때 다시 입력한다.
+  if (!sharedMode() && !guestAllowed) {
+    return <GuestLoginPage onDone={() => setGuestAllowed(true)} />
   }
 
   /**
@@ -394,7 +404,7 @@ export default function App() {
         onToggleTheme={toggleTheme}
         onToggle={toggleSide}
         onLogout={doLogout}
-        onLogoutAll={() => void doLogoutAll()}
+        onLogoutAll={sharedMode() ? () => void doLogoutAll() : undefined}
       />
 
       {/* 모바일 상단 앱바 */}
@@ -494,7 +504,7 @@ export default function App() {
                   로그아웃
                 </button>
               )}
-              {isLoggedIn() && (
+              {isLoggedIn() && sharedMode() && (
                 <button className="sheet-item" onClick={() => { setSheet(false); void doLogoutAll() }}>
                   <Icon name="users" className="ic" />
                   모든 기기에서 로그아웃
