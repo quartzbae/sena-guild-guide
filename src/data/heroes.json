@@ -1,0 +1,2656 @@
+[
+  {
+    "id": "겔리두스",
+    "name": "겔리두스",
+    "grade": "전설",
+    "position": "만능형",
+    "pvpRelevant": true,
+    "tags": [
+      "(구)세븐나이츠",
+      "합성 전용 획득"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "패왕의 기억",
+        "type": "액티브"
+      },
+      {
+        "name": "창공의 패왕",
+        "type": "액티브"
+      },
+      {
+        "name": "얼음 여왕의 가호",
+        "type": "패시브"
+      }
+    ],
+    "star": 6,
+    "cardBg": "04",
+    "cardBadge": "03"
+  },
+  {
+    "id": "관우",
+    "name": "관우",
+    "grade": "전설",
+    "position": "만능형",
+    "pvpRelevant": true,
+    "tags": [
+      "삼국호걸"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "청룡월파참",
+        "type": "액티브"
+      },
+      {
+        "name": "진두지휘",
+        "type": "액티브"
+      },
+      {
+        "name": "만인지적",
+        "type": "패시브"
+      }
+    ],
+    "star": 6,
+    "cardBg": "04"
+  },
+  {
+    "id": "나타",
+    "name": "나타",
+    "grade": "전설",
+    "position": "마법형",
+    "pvpRelevant": true,
+    "tags": [
+      "천자의 땅",
+      "천자의 땅 동쪽"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "화첨창술",
+        "type": "액티브"
+      },
+      {
+        "name": "혼천릉파",
+        "type": "액티브"
+      },
+      {
+        "name": "연꽃의 보호",
+        "type": "패시브"
+      }
+    ],
+    "star": 6,
+    "cardBg": "04"
+  },
+  {
+    "id": "각성 녹스",
+    "name": "각성 녹스",
+    "grade": "전설",
+    "position": "방어형",
+    "pvpRelevant": true,
+    "tags": [
+      "복주자의 지옥",
+      "복수자의 지옥",
+      "각성 형태"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "지옥의 방패",
+        "type": "액티브"
+      },
+      {
+        "name": "지옥의 일격",
+        "type": "액티브"
+      },
+      {
+        "name": "지옥의 기사",
+        "type": "패시브"
+      },
+      {
+        "name": "심연의 검풍",
+        "type": "각성"
+      }
+    ],
+    "star": 7,
+    "cardBg": "04"
+  },
+  {
+    "id": "니아",
+    "name": "니아",
+    "grade": "전설",
+    "position": "만능형",
+    "role": "광역 딜러(보호막 패시브)",
+    "pvpRelevant": true,
+    "tags": [
+      "성십자단",
+      "모험가 소환 획득 가능"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "100만 볼트",
+        "type": "액티브"
+      },
+      {
+        "name": "시간 조작",
+        "type": "액티브"
+      },
+      {
+        "name": "예비 전력",
+        "type": "패시브"
+      }
+    ],
+    "star": 6,
+    "cardBg": "04"
+  },
+  {
+    "id": "데이지",
+    "name": "데이지",
+    "grade": "전설",
+    "position": "마법형",
+    "pvpRelevant": true,
+    "tags": [
+      "달빛의 섬"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "비화선",
+        "type": "액티브"
+      },
+      {
+        "name": "불나비",
+        "type": "액티브"
+      },
+      {
+        "name": "기민한 움직임",
+        "type": "패시브"
+      }
+    ],
+    "star": 6,
+    "cardBg": "03"
+  },
+  {
+    "id": "각성 델론즈",
+    "name": "각성 델론즈",
+    "grade": "전설",
+    "position": "공격형",
+    "role": "광역 누커",
+    "pvpRelevant": true,
+    "tags": [
+      "세븐나이츠",
+      "다크나이츠",
+      "각성 형태"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "기본 공격 [변신]",
+        "type": "액티브"
+      },
+      {
+        "name": "사신 강림",
+        "type": "액티브"
+      },
+      {
+        "name": "사신의 심판",
+        "type": "액티브"
+      },
+      {
+        "name": "죽음의 일격",
+        "type": "액티브"
+      },
+      {
+        "name": "사신난무",
+        "type": "액티브"
+      },
+      {
+        "name": "죽음의 경계",
+        "type": "패시브"
+      },
+      {
+        "name": "파멸의 손아귀",
+        "type": "각성"
+      }
+    ],
+    "star": 7,
+    "cardBg": "04",
+    "cardBadge": "01"
+  },
+  {
+    "id": "각성 동영",
+    "name": "각성 동영",
+    "grade": "전설",
+    "position": "마법형",
+    "pvpRelevant": true,
+    "tags": [
+      "신지",
+      "각성 형태"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "황천의 숨결",
+        "type": "액티브"
+      },
+      {
+        "name": "심연의 손길",
+        "type": "액티브"
+      },
+      {
+        "name": "황천의 동행자",
+        "type": "패시브"
+      },
+      {
+        "name": "필멸의 선고",
+        "type": "각성"
+      }
+    ],
+    "star": 7,
+    "cardBg": "04",
+    "cardBadge": "01"
+  },
+  {
+    "id": "돼오",
+    "name": "돼오",
+    "grade": "전설",
+    "position": "공격형",
+    "pvpRelevant": true,
+    "tags": [
+      "테라영지",
+      "테라 영지"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "룰렛맨",
+        "type": "액티브"
+      },
+      {
+        "name": "진수성참",
+        "type": "액티브"
+      },
+      {
+        "name": "상회대표",
+        "type": "패시브"
+      }
+    ],
+    "star": 6,
+    "cardBg": "04"
+  },
+  {
+    "id": "라드그리드",
+    "name": "라드그리드",
+    "grade": "전설",
+    "position": "방어형",
+    "pvpRelevant": true,
+    "tags": [
+      "천상의 수호자"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "전창의 비",
+        "type": "액티브"
+      },
+      {
+        "name": "작렬하는 창연",
+        "type": "액티브"
+      },
+      {
+        "name": "준비된 병략",
+        "type": "패시브"
+      }
+    ],
+    "star": 6,
+    "cardBg": "04",
+    "cardBadge": "01"
+  },
+  {
+    "id": "라이언",
+    "name": "라이언",
+    "grade": "전설",
+    "position": "공격형",
+    "pvpRelevant": true,
+    "tags": [
+      "루미너스 혁명단"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "강자 사냥",
+        "type": "액티브"
+      },
+      {
+        "name": "광풍참",
+        "type": "액티브"
+      },
+      {
+        "name": "쾌속의 마검사",
+        "type": "패시브"
+      }
+    ],
+    "star": 6,
+    "cardBg": "04",
+    "cardBadge": "01"
+  },
+  {
+    "id": "란드그리드",
+    "name": "란드그리드",
+    "grade": "전설",
+    "position": "공격형",
+    "pvpRelevant": true,
+    "tags": [
+      "천상의 수호자",
+      "공덱 핵심"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "약속된 전장",
+        "type": "액티브"
+      },
+      {
+        "name": "절대 창의 주스트",
+        "type": "액티브"
+      },
+      {
+        "name": "영웅 무쌍",
+        "type": "패시브"
+      }
+    ],
+    "star": 6,
+    "cardBg": "04",
+    "cardBadge": "01"
+  },
+  {
+    "id": "레긴레이프",
+    "name": "레긴레이프",
+    "grade": "전설",
+    "position": "마법형",
+    "pvpRelevant": true,
+    "tags": [
+      "천상의 수호자"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "광명의 도래",
+        "type": "액티브"
+      },
+      {
+        "name": "우주의 균열",
+        "type": "액티브"
+      },
+      {
+        "name": "조화의 비원",
+        "type": "패시브"
+      }
+    ],
+    "star": 6,
+    "cardBg": "04",
+    "cardBadge": "01"
+  },
+  {
+    "id": "레이첼",
+    "name": "레이첼",
+    "grade": "전설",
+    "position": "만능형",
+    "role": "디버퍼",
+    "pvpRelevant": true,
+    "tags": [
+      "세븐나이츠"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "염화",
+        "type": "액티브"
+      },
+      {
+        "name": "불새",
+        "type": "액티브"
+      },
+      {
+        "name": "화염의 힘",
+        "type": "패시브"
+      }
+    ],
+    "star": 6,
+    "cardBg": "04",
+    "cardBadge": "01"
+  },
+  {
+    "id": "로지",
+    "name": "로지",
+    "grade": "전설",
+    "position": "지원형",
+    "pvpRelevant": null,
+    "tags": [
+      "(구)세븐나이츠",
+      "합성 전용 획득"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "달빛의 심판",
+        "type": "액티브"
+      },
+      {
+        "name": "성령의 기도",
+        "type": "액티브"
+      },
+      {
+        "name": "망자의 축복",
+        "type": "패시브"
+      }
+    ],
+    "star": 6,
+    "cardBg": "04",
+    "cardBadge": "03"
+  },
+  {
+    "id": "각성 루디",
+    "name": "각성 루디",
+    "grade": "전설",
+    "position": "방어형",
+    "role": "링크로 아군 피해를 분산하는 메인 탱커",
+    "pvpRelevant": true,
+    "tags": [
+      "세븐나이츠",
+      "각성 형태"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "돌격",
+        "type": "액티브"
+      },
+      {
+        "name": "방어 준비",
+        "type": "액티브"
+      },
+      {
+        "name": "견고한 방패",
+        "type": "패시브"
+      },
+      {
+        "name": "영광의 심판",
+        "type": "각성"
+      }
+    ],
+    "star": 7,
+    "cardBg": "04",
+    "cardBadge": "01"
+  },
+  {
+    "id": "루리",
+    "name": "루리",
+    "grade": "전설",
+    "position": "마법형",
+    "pvpRelevant": true,
+    "tags": [
+      "성십자단"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "근거리 연사",
+        "type": "액티브"
+      },
+      {
+        "name": "폭격 지원",
+        "type": "액티브"
+      },
+      {
+        "name": "뒷거래",
+        "type": "패시브"
+      }
+    ],
+    "star": 6,
+    "cardBg": "04"
+  },
+  {
+    "id": "룩",
+    "name": "룩",
+    "grade": "전설",
+    "position": "방어형",
+    "pvpRelevant": true,
+    "tags": [
+      "테라영지",
+      "테라 영지"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "투창",
+        "type": "액티브"
+      },
+      {
+        "name": "진형 굳히기",
+        "type": "액티브"
+      },
+      {
+        "name": "공성 방패",
+        "type": "패시브"
+      }
+    ],
+    "star": 6,
+    "cardBg": "04"
+  },
+  {
+    "id": "리나",
+    "name": "리나",
+    "grade": "전설",
+    "position": "지원형",
+    "pvpRelevant": true,
+    "tags": [
+      "달빛의 섬"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "행진가",
+        "type": "액티브"
+      },
+      {
+        "name": "따뜻한 울림",
+        "type": "액티브"
+      },
+      {
+        "name": "불협화음",
+        "type": "패시브"
+      }
+    ],
+    "star": 6,
+    "cardBg": "04"
+  },
+  {
+    "id": "린",
+    "name": "린",
+    "grade": "전설",
+    "position": "마법형",
+    "pvpRelevant": true,
+    "tags": [
+      "사황"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "용린성하",
+        "type": "액티브"
+      },
+      {
+        "name": "용제의 진노",
+        "type": "액티브"
+      },
+      {
+        "name": "홍린포",
+        "type": "패시브"
+      }
+    ],
+    "star": 6,
+    "cardBg": "04",
+    "cardBadge": "01"
+  },
+  {
+    "id": "멜키르",
+    "name": "멜키르",
+    "grade": "전설",
+    "position": "마법형",
+    "role": "광역 마법 누커",
+    "pvpRelevant": true,
+    "tags": [
+      "다크나이츠"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "어둠 강탈",
+        "type": "액티브"
+      },
+      {
+        "name": "금지된 실험",
+        "type": "액티브"
+      },
+      {
+        "name": "타락한 마법사",
+        "type": "패시브"
+      }
+    ],
+    "star": 6,
+    "cardBg": "04",
+    "cardBadge": "01"
+  },
+  {
+    "id": "미스트",
+    "name": "미스트",
+    "grade": "전설",
+    "position": "만능형",
+    "pvpRelevant": true,
+    "tags": [
+      "천상의 수호자"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "깨어난 야수",
+        "type": "액티브"
+      },
+      {
+        "name": "죽음의 안개",
+        "type": "액티브"
+      },
+      {
+        "name": "파멸의 안개",
+        "type": "패시브"
+      }
+    ],
+    "star": 6,
+    "cardBg": "04",
+    "cardBadge": "01"
+  },
+  {
+    "id": "미호",
+    "name": "미호",
+    "grade": "전설",
+    "position": "마법형",
+    "pvpRelevant": true,
+    "tags": [
+      "숨은강자들",
+      "숨은 강자들"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "살육의 춤",
+        "type": "액티브"
+      },
+      {
+        "name": "교만의 일격",
+        "type": "액티브"
+      },
+      {
+        "name": "호시탐탐",
+        "type": "패시브"
+      }
+    ],
+    "star": 6,
+    "cardBg": "04"
+  },
+  {
+    "id": "밀리아",
+    "name": "밀리아",
+    "grade": "전설",
+    "position": "마법형",
+    "role": "마법형 다수 편성 시너지 딜러",
+    "pvpRelevant": true,
+    "tags": [
+      "(구)세븐나이츠",
+      "합성 전용 획득"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "수정룡의 거울",
+        "type": "액티브"
+      },
+      {
+        "name": "수정의 숨결",
+        "type": "액티브"
+      },
+      {
+        "name": "광채의 수정비늘",
+        "type": "패시브"
+      }
+    ],
+    "star": 6,
+    "cardBg": "04",
+    "cardBadge": "03"
+  },
+  {
+    "id": "바네사",
+    "name": "바네사",
+    "grade": "전설",
+    "position": "마법형",
+    "role": "방어력 감소 디버퍼",
+    "pvpRelevant": true,
+    "tags": [
+      "세븐나이츠"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "모래열풍",
+        "type": "액티브"
+      },
+      {
+        "name": "메마른 해일",
+        "type": "액티브"
+      },
+      {
+        "name": "사막의 마법사",
+        "type": "패시브"
+      }
+    ],
+    "star": 6,
+    "cardBg": "04",
+    "cardBadge": "01"
+  },
+  {
+    "id": "발리스타",
+    "name": "발리스타",
+    "grade": "전설",
+    "position": "공격형",
+    "pvpRelevant": true,
+    "tags": [
+      "그림자단"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "죽음의 그림자",
+        "type": "액티브"
+      },
+      {
+        "name": "사신의 딸",
+        "type": "패시브"
+      }
+    ],
+    "star": 6,
+    "cardBg": "04"
+  },
+  {
+    "id": "백각",
+    "name": "백각",
+    "grade": "전설",
+    "position": "만능형",
+    "pvpRelevant": true,
+    "tags": [
+      "천자의 땅",
+      "천자의 땅 동쪽"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "백각환독",
+        "type": "액티브"
+      },
+      {
+        "name": "마신주령",
+        "type": "액티브"
+      },
+      {
+        "name": "어둠의 주술",
+        "type": "패시브"
+      }
+    ],
+    "star": 6,
+    "cardBg": "04"
+  },
+  {
+    "id": "백룡",
+    "name": "백룡",
+    "grade": "전설",
+    "position": "공격형",
+    "pvpRelevant": true,
+    "tags": [
+      "천자의 땅",
+      "천자의 땅 서쪽"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "섬광십무",
+        "type": "액티브"
+      },
+      {
+        "name": "쌍절태풍격",
+        "type": "액티브"
+      },
+      {
+        "name": "전설의 부활",
+        "type": "패시브"
+      }
+    ],
+    "star": 6,
+    "cardBg": "04"
+  },
+  {
+    "id": "각성 벨리카",
+    "name": "각성 벨리카",
+    "grade": "전설",
+    "position": "마법형",
+    "pvpRelevant": true,
+    "tags": [
+      "모험가"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "메테오",
+        "type": "액티브"
+      },
+      {
+        "name": "어둠의 환영",
+        "type": "액티브"
+      },
+      {
+        "name": "흑월의 축복",
+        "type": "패시브"
+      },
+      {
+        "name": "마녀의 그림자",
+        "type": "각성"
+      }
+    ],
+    "star": 7,
+    "cardBg": "04",
+    "cardBadge": "01"
+  },
+  {
+    "id": "브란즈&브란셀",
+    "name": "브란즈&브란셀",
+    "grade": "전설",
+    "position": "공격형",
+    "pvpRelevant": true,
+    "tags": [
+      "다크나이츠"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "괴력의 난동",
+        "type": "액티브"
+      },
+      {
+        "name": "구원의 일격",
+        "type": "액티브"
+      },
+      {
+        "name": "선악의 권능",
+        "type": "패시브"
+      }
+    ],
+    "star": 6,
+    "cardBg": "04",
+    "cardBadge": "01"
+  },
+  {
+    "id": "비담",
+    "name": "비담",
+    "grade": "전설",
+    "position": "공격형",
+    "pvpRelevant": true,
+    "tags": [
+      "천자의 땅",
+      "천자의 땅 동쪽"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "거궁신포",
+        "type": "액티브"
+      },
+      {
+        "name": "태전포화",
+        "type": "액티브"
+      },
+      {
+        "name": "화랑의 후예",
+        "type": "패시브"
+      }
+    ],
+    "star": 6,
+    "cardBg": "04"
+  },
+  {
+    "id": "비스킷",
+    "name": "비스킷",
+    "grade": "전설",
+    "position": "지원형",
+    "pvpRelevant": true,
+    "tags": [
+      "테라영지",
+      "테라 영지"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "장비 강화",
+        "type": "액티브"
+      },
+      {
+        "name": "리프 어택",
+        "type": "액티브"
+      },
+      {
+        "name": "대장장이의 강화",
+        "type": "패시브"
+      }
+    ],
+    "star": 6,
+    "cardBg": "04"
+  },
+  {
+    "id": "각성 선란",
+    "name": "각성 선란",
+    "grade": "전설",
+    "position": "공격형",
+    "pvpRelevant": true,
+    "tags": [
+      "경계의 수호자",
+      "오리지널",
+      "2026-07-23 신규",
+      "각성 형태"
+    ],
+    "role": "메인 딜러",
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "연환참",
+        "type": "액티브"
+      },
+      {
+        "name": "무영비검",
+        "type": "액티브"
+      },
+      {
+        "name": "귀면무사",
+        "type": "패시브"
+      },
+      {
+        "name": "천검",
+        "type": "각성"
+      }
+    ],
+    "star": 7,
+    "cardBg": "04",
+    "cardBadge": "01"
+  },
+  {
+    "id": "성진우",
+    "name": "성진우",
+    "grade": "전설",
+    "position": "마법형",
+    "pvpRelevant": true,
+    "tags": [
+      "콜라보레이션"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "급소 찌르기",
+        "type": "액티브"
+      },
+      {
+        "name": "그림자 소환",
+        "type": "액티브"
+      },
+      {
+        "name": "레벨업",
+        "type": "패시브"
+      }
+    ],
+    "star": 6,
+    "cardBg": "04",
+    "cardBadge": "01"
+  },
+  {
+    "id": "세인",
+    "name": "세인",
+    "grade": "전설",
+    "position": "공격형",
+    "pvpRelevant": true,
+    "tags": [
+      "성십자단"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "귀신 베기",
+        "type": "액티브"
+      },
+      {
+        "name": "악마의 힘",
+        "type": "패시브"
+      }
+    ],
+    "star": 6,
+    "cardBg": "04"
+  },
+  {
+    "id": "소교",
+    "name": "소교",
+    "grade": "전설",
+    "position": "마법형",
+    "pvpRelevant": true,
+    "tags": [
+      "천자의 땅",
+      "천자의 땅 동쪽"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "우후죽순",
+        "type": "액티브"
+      },
+      {
+        "name": "호접지몽",
+        "type": "액티브"
+      },
+      {
+        "name": "전장의 공주",
+        "type": "패시브"
+      }
+    ],
+    "star": 6,
+    "cardBg": "04"
+  },
+  {
+    "id": "손오공",
+    "name": "손오공",
+    "grade": "전설",
+    "position": "만능형",
+    "role": "분신 버프 방어덱 딜러·아군 회복 지원",
+    "pvpRelevant": true,
+    "tags": [
+      "사황"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "기본 공격(분신)",
+        "type": "액티브"
+      },
+      {
+        "name": "대봉승타격",
+        "type": "액티브"
+      },
+      {
+        "name": "환. 대봉승타격",
+        "type": "액티브"
+      },
+      {
+        "name": "여의난참무",
+        "type": "액티브"
+      },
+      {
+        "name": "환. 여의난참무",
+        "type": "액티브"
+      },
+      {
+        "name": "미후분신술",
+        "type": "패시브"
+      }
+    ],
+    "star": 6,
+    "cardBg": "04",
+    "cardBadge": "01"
+  },
+  {
+    "id": "각성 스쿨드",
+    "name": "각성 스쿨드",
+    "grade": "전설",
+    "position": "마법형",
+    "role": "마법취약 기점 마법 딜러",
+    "pvpRelevant": true,
+    "tags": [
+      "천상의 수호자",
+      "각성 형태"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "반짝! 별자리 여행",
+        "type": "액티브"
+      },
+      {
+        "name": "성좌의 비밀",
+        "type": "액티브"
+      },
+      {
+        "name": "초승달 예언가",
+        "type": "패시브"
+      },
+      {
+        "name": "천운의 광휘",
+        "type": "각성"
+      }
+    ],
+    "star": 7,
+    "cardBg": "04",
+    "cardBadge": "01"
+  },
+  {
+    "id": "스파이크",
+    "name": "스파이크",
+    "grade": "전설",
+    "position": "만능형",
+    "pvpRelevant": true,
+    "tags": [
+      "세븐나이츠"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "혹한의 일격",
+        "type": "액티브"
+      },
+      {
+        "name": "혹한의 지진",
+        "type": "액티브"
+      },
+      {
+        "name": "혹한의 심장",
+        "type": "패시브"
+      }
+    ],
+    "star": 6,
+    "cardBg": "04",
+    "cardBadge": "01"
+  },
+  {
+    "id": "각성 실베스타",
+    "name": "각성 실베스타",
+    "grade": "전설",
+    "position": "마법형",
+    "role": "마법 딜러",
+    "pvpRelevant": true,
+    "tags": [
+      "각성 형태"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "번뇌의 단죄",
+        "type": "액티브"
+      },
+      {
+        "name": "재기의 일격",
+        "type": "액티브"
+      },
+      {
+        "name": "기사의 의지",
+        "type": "패시브"
+      },
+      {
+        "name": "정화하는 어둠",
+        "type": "각성"
+      }
+    ],
+    "star": 7,
+    "cardBg": "04",
+    "cardBadge": "01"
+  },
+  {
+    "id": "아라곤",
+    "name": "아라곤",
+    "grade": "전설",
+    "position": "방어형",
+    "pvpRelevant": true,
+    "tags": [
+      "테라영지",
+      "테라 영지"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "포격 지원",
+        "type": "액티브"
+      },
+      {
+        "name": "노장의 위엄",
+        "type": "패시브"
+      }
+    ],
+    "star": 6,
+    "cardBg": "04"
+  },
+  {
+    "id": "각성 아리스",
+    "name": "각성 아리스",
+    "grade": "전설",
+    "position": "만능형",
+    "role": "피격 시 '지룡의 격노'로 강해지는 방어덱 딜러",
+    "pvpRelevant": true,
+    "tags": [
+      "펜타곤",
+      "2026-07 신규",
+      "각성 형태"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "짓뭉개주마!",
+        "type": "액티브"
+      },
+      {
+        "name": "끝내볼까?",
+        "type": "액티브"
+      },
+      {
+        "name": "대지의 기운",
+        "type": "패시브"
+      },
+      {
+        "name": "위태로운 공존",
+        "type": "각성"
+      }
+    ],
+    "star": 7,
+    "cardBg": "04",
+    "cardBadge": "01"
+  },
+  {
+    "id": "아멜리아",
+    "name": "아멜리아",
+    "grade": "전설",
+    "position": "공격형",
+    "pvpRelevant": true,
+    "tags": [
+      "숨은강자들",
+      "숨은 강자들"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "통행금지",
+        "type": "액티브"
+      },
+      {
+        "name": "위기대응",
+        "type": "액티브"
+      },
+      {
+        "name": "첨단 나노 슈트",
+        "type": "패시브"
+      }
+    ],
+    "star": 6,
+    "cardBg": "04"
+  },
+  {
+    "id": "아일린",
+    "name": "아일린",
+    "grade": "전설",
+    "position": "만능형",
+    "pvpRelevant": true,
+    "tags": [
+      "세븐나이츠"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "뇌제의 분노",
+        "type": "액티브"
+      },
+      {
+        "name": "청천벽력",
+        "type": "액티브"
+      },
+      {
+        "name": "포디나의 분노",
+        "type": "패시브"
+      }
+    ],
+    "star": 6,
+    "cardBg": "04",
+    "cardBadge": "01"
+  },
+  {
+    "id": "아킬라",
+    "name": "아킬라",
+    "grade": "전설",
+    "position": "방어형",
+    "pvpRelevant": true,
+    "tags": [
+      "나이트크로우",
+      "나이트 크로우"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "잔혹한 폭풍",
+        "type": "액티브"
+      },
+      {
+        "name": "칠흑의 장막",
+        "type": "액티브"
+      },
+      {
+        "name": "어둠의 인도자",
+        "type": "패시브"
+      }
+    ],
+    "star": 6,
+    "cardBg": "04",
+    "cardBadge": "01"
+  },
+  {
+    "id": "에스파다",
+    "name": "에스파다",
+    "grade": "전설",
+    "position": "마법형",
+    "pvpRelevant": true,
+    "tags": [
+      "성십자단"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "정화탄",
+        "type": "액티브"
+      },
+      {
+        "name": "신의 심판",
+        "type": "액티브"
+      },
+      {
+        "name": "마력 정화",
+        "type": "패시브"
+      }
+    ],
+    "star": 6,
+    "cardBg": "04"
+  },
+  {
+    "id": "에이스",
+    "name": "에이스",
+    "grade": "전설",
+    "position": "만능형",
+    "role": "디버퍼",
+    "pvpRelevant": true,
+    "tags": [
+      "사황"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "달빛 베기",
+        "type": "액티브"
+      },
+      {
+        "name": "일도천화엽",
+        "type": "액티브"
+      },
+      {
+        "name": "불굴의 지휘",
+        "type": "패시브"
+      }
+    ],
+    "star": 6,
+    "cardBg": "04",
+    "cardBadge": "01"
+  },
+  {
+    "id": "엘리스",
+    "name": "엘리스",
+    "grade": "전설",
+    "position": "지원형",
+    "pvpRelevant": true,
+    "tags": [
+      "테라영지",
+      "테라 영지"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "비밀의 문",
+        "type": "액티브"
+      },
+      {
+        "name": "내 카드 속엔?",
+        "type": "액티브"
+      },
+      {
+        "name": "나. 너. 로맨틱",
+        "type": "패시브"
+      }
+    ],
+    "star": 6,
+    "cardBg": "04"
+  },
+  {
+    "id": "엘리시아",
+    "name": "엘리시아",
+    "grade": "전설",
+    "position": "만능형",
+    "pvpRelevant": true,
+    "tags": [
+      "루미너스 혁명단"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "천공의 빛",
+        "type": "액티브"
+      },
+      {
+        "name": "별빛 낙하",
+        "type": "액티브"
+      },
+      {
+        "name": "혁명단의 인도자",
+        "type": "패시브"
+      }
+    ],
+    "star": 6,
+    "cardBg": "04",
+    "cardBadge": "01"
+  },
+  {
+    "id": "여포",
+    "name": "여포",
+    "grade": "전설",
+    "position": "공격형",
+    "role": "사망 시 부활+스킬 쿨 초기화 물리 광역딜러",
+    "pvpRelevant": true,
+    "tags": [
+      "사황"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "혈풍벽파",
+        "type": "액티브"
+      },
+      {
+        "name": "적토질풍격",
+        "type": "액티브"
+      },
+      {
+        "name": "초인적인 힘",
+        "type": "패시브"
+      }
+    ],
+    "star": 6,
+    "cardBg": "04",
+    "cardBadge": "01"
+  },
+  {
+    "id": "연희",
+    "name": "연희",
+    "grade": "전설",
+    "position": "마법형",
+    "pvpRelevant": true,
+    "tags": [
+      "(구)사황"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "파괴의 손짓",
+        "type": "액티브"
+      },
+      {
+        "name": "종말의 영면",
+        "type": "액티브"
+      },
+      {
+        "name": "혜안",
+        "type": "패시브"
+      }
+    ],
+    "star": 6,
+    "cardBg": "04",
+    "cardBadge": "01"
+  },
+  {
+    "id": "각성 오르카",
+    "name": "각성 오르카",
+    "grade": "전설",
+    "position": "공격형",
+    "role": "아군 스킬 순환 지원 물리 딜러",
+    "pvpRelevant": true,
+    "tags": [
+      "펜타곤",
+      "2026-06 신규",
+      "각성 형태"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "불공정 거래",
+        "type": "액티브"
+      },
+      {
+        "name": "무자비한 착취",
+        "type": "액티브"
+      },
+      {
+        "name": "잔혹한 거래",
+        "type": "패시브"
+      },
+      {
+        "name": "최후통첩",
+        "type": "각성"
+      }
+    ],
+    "star": 7,
+    "cardBg": "04",
+    "cardBadge": "01"
+  },
+  {
+    "id": "오를리",
+    "name": "오를리",
+    "grade": "전설",
+    "position": "지원형",
+    "pvpRelevant": true,
+    "tags": [
+      "나이트크로우",
+      "나이트 크로우"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "고결한 유성",
+        "type": "액티브"
+      },
+      {
+        "name": "빛의 일갈",
+        "type": "액티브"
+      },
+      {
+        "name": "통찰의 빛",
+        "type": "패시브"
+      }
+    ],
+    "star": 6,
+    "cardBg": "04",
+    "cardBadge": "01"
+  },
+  {
+    "id": "오목",
+    "name": "오목",
+    "grade": "전설",
+    "position": "마법형",
+    "pvpRelevant": true,
+    "tags": [
+      "나이트크로우",
+      "나이트 크로우"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "맹호의 무도",
+        "type": "액티브"
+      },
+      {
+        "name": "만월화차 맹호전",
+        "type": "액티브"
+      },
+      {
+        "name": "신목의 가호",
+        "type": "패시브"
+      }
+    ],
+    "star": 6,
+    "cardBg": "04",
+    "cardBadge": "01"
+  },
+  {
+    "id": "유신",
+    "name": "유신",
+    "grade": "전설",
+    "position": "마법형",
+    "pvpRelevant": true,
+    "tags": [
+      "천자의 땅",
+      "천자의 땅 동쪽",
+      "모험가 소환 획득 가능"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "뇌운 흑영랑",
+        "type": "액티브"
+      },
+      {
+        "name": "번뇌",
+        "type": "액티브"
+      },
+      {
+        "name": "신선의 가르침",
+        "type": "패시브"
+      }
+    ],
+    "star": 6,
+    "cardBg": "04"
+  },
+  {
+    "id": "각성 윤건",
+    "name": "각성 윤건",
+    "grade": "전설",
+    "position": "마법형",
+    "pvpRelevant": true,
+    "tags": [
+      "숨은강자들"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "십연자포",
+        "type": "액티브"
+      },
+      {
+        "name": "신속연사",
+        "type": "액티브"
+      },
+      {
+        "name": "신지의 관료",
+        "type": "패시브"
+      },
+      {
+        "name": "일제 사격",
+        "type": "각성"
+      }
+    ],
+    "star": 7,
+    "cardBg": "04",
+    "cardBadge": "01"
+  },
+  {
+    "id": "제이브",
+    "name": "제이브",
+    "grade": "전설",
+    "position": "만능형",
+    "pvpRelevant": true,
+    "tags": [
+      "세븐나이츠"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "분노의 일격",
+        "type": "액티브"
+      },
+      {
+        "name": "용의 분노",
+        "type": "액티브"
+      },
+      {
+        "name": "복수의 갑옷",
+        "type": "패시브"
+      }
+    ],
+    "star": 6,
+    "cardBg": "04",
+    "cardBadge": "01"
+  },
+  {
+    "id": "쥬리",
+    "name": "쥬리",
+    "grade": "전설",
+    "position": "마법형",
+    "pvpRelevant": null,
+    "tags": [
+      "(구)세븐나이츠",
+      "합성 전용 획득"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "천상의 심판",
+        "type": "액티브"
+      },
+      {
+        "name": "최고 판결",
+        "type": "액티브"
+      },
+      {
+        "name": "신의 저울",
+        "type": "패시브"
+      }
+    ],
+    "star": 6,
+    "cardBg": "04",
+    "cardBadge": "03"
+  },
+  {
+    "id": "지크",
+    "name": "지크",
+    "grade": "전설",
+    "position": "만능형",
+    "pvpRelevant": true,
+    "tags": [
+      "성십자단"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "부숴버려!",
+        "type": "액티브"
+      },
+      {
+        "name": "봉인해제!",
+        "type": "액티브"
+      },
+      {
+        "name": "나만 믿어",
+        "type": "패시브"
+      }
+    ],
+    "star": 6,
+    "cardBg": "04"
+  },
+  {
+    "id": "차해인",
+    "name": "차해인",
+    "grade": "전설",
+    "position": "공격형",
+    "pvpRelevant": true,
+    "tags": [
+      "콜라보레이션"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "무희",
+        "type": "액티브"
+      },
+      {
+        "name": "검무",
+        "type": "액티브"
+      },
+      {
+        "name": "마나 감지",
+        "type": "패시브"
+      }
+    ],
+    "star": 6,
+    "cardBg": "04",
+    "cardBadge": "01"
+  },
+  {
+    "id": "챈슬러",
+    "name": "챈슬러",
+    "grade": "전설",
+    "position": "만능형",
+    "role": "쿨타임·버프 견제",
+    "pvpRelevant": false,
+    "tags": [
+      "테라영지",
+      "테라 영지"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "분쇄",
+        "type": "액티브"
+      },
+      {
+        "name": "대지 파괴",
+        "type": "액티브"
+      },
+      {
+        "name": "위압감",
+        "type": "패시브"
+      }
+    ],
+    "star": 6,
+    "cardBg": "04"
+  },
+  {
+    "id": "초선",
+    "name": "초선",
+    "grade": "전설",
+    "position": "지원형",
+    "role": "수면 CC·버퍼",
+    "pvpRelevant": true,
+    "tags": [
+      "삼국호걸"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "진군가",
+        "type": "액티브"
+      },
+      {
+        "name": "보호의 노래",
+        "type": "액티브"
+      },
+      {
+        "name": "폐월의 미소",
+        "type": "패시브"
+      }
+    ],
+    "star": 6,
+    "cardBg": "04"
+  },
+  {
+    "id": "카구라",
+    "name": "카구라",
+    "grade": "전설",
+    "position": "공격형",
+    "pvpRelevant": true,
+    "tags": [
+      "숨은강자들",
+      "숨은 강자들"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "해방 - 팔사검",
+        "type": "액티브"
+      },
+      {
+        "name": "해방 - 뱀 사냥",
+        "type": "액티브"
+      },
+      {
+        "name": "팔사의 저주",
+        "type": "패시브"
+      }
+    ],
+    "star": 6,
+    "cardBg": "04",
+    "cardBadge": "01"
+  },
+  {
+    "id": "카르마",
+    "name": "카르마",
+    "grade": "전설",
+    "position": "만능형",
+    "pvpRelevant": true,
+    "tags": [
+      "(구)사황"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "과오의 화옥",
+        "type": "액티브"
+      },
+      {
+        "name": "절망의 폭풍",
+        "type": "액티브"
+      },
+      {
+        "name": "타락한 신선",
+        "type": "패시브"
+      }
+    ],
+    "star": 6,
+    "cardBg": "04",
+    "cardBadge": "01"
+  },
+  {
+    "id": "카일",
+    "name": "카일",
+    "grade": "전설",
+    "position": "공격형",
+    "pvpRelevant": true,
+    "tags": [
+      "(구)사황"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "철쇄폭압",
+        "type": "액티브"
+      },
+      {
+        "name": "사슬의 무덤",
+        "type": "액티브"
+      },
+      {
+        "name": "소검쌍무",
+        "type": "패시브"
+      }
+    ],
+    "star": 6,
+    "cardBg": "04",
+    "cardBadge": "01"
+  },
+  {
+    "id": "칼헤론",
+    "name": "칼헤론",
+    "grade": "전설",
+    "position": "공격형",
+    "pvpRelevant": true,
+    "tags": [
+      "나이트크로우",
+      "나이트 크로우"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "뇌광포",
+        "type": "액티브"
+      },
+      {
+        "name": "청천벽력·개(改)",
+        "type": "액티브"
+      },
+      {
+        "name": "쌍창의 달인",
+        "type": "패시브"
+      }
+    ],
+    "star": 6,
+    "cardBg": "04",
+    "cardBadge": "01"
+  },
+  {
+    "id": "콜트",
+    "name": "콜트",
+    "grade": "전설",
+    "position": "공격형",
+    "pvpRelevant": true,
+    "tags": [
+      "다크나이츠"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "빠르고, 멋있게.",
+        "type": "액티브"
+      },
+      {
+        "name": "어때, 화려하지?",
+        "type": "액티브"
+      },
+      {
+        "name": "방랑의 사냥꾼",
+        "type": "패시브"
+      }
+    ],
+    "star": 6,
+    "cardBg": "04",
+    "cardBadge": "01"
+  },
+  {
+    "id": "크리스",
+    "name": "크리스",
+    "grade": "전설",
+    "position": "만능형",
+    "pvpRelevant": true,
+    "tags": [
+      "세븐나이츠"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "어둠의 일격",
+        "type": "액티브"
+      },
+      {
+        "name": "어둠의 속삭임",
+        "type": "액티브"
+      },
+      {
+        "name": "영혼 흡수",
+        "type": "패시브"
+      }
+    ],
+    "star": 6,
+    "cardBg": "04",
+    "cardBadge": "01"
+  },
+  {
+    "id": "클라한",
+    "name": "클라한",
+    "grade": "전설",
+    "position": "공격형",
+    "pvpRelevant": true,
+    "tags": [
+      "숨은강자들",
+      "숨은 강자들"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "비호선풍",
+        "type": "액티브"
+      },
+      {
+        "name": "질풍 몰아치기",
+        "type": "액티브"
+      },
+      {
+        "name": "호랑이의 용맹",
+        "type": "패시브"
+      }
+    ],
+    "star": 6,
+    "cardBg": "04",
+    "cardBadge": "01"
+  },
+  {
+    "id": "각성 클레미스",
+    "name": "각성 클레미스",
+    "grade": "전설",
+    "position": "지원형",
+    "role": "아군에 불사/부활 부여 — 방덱 최적 서포터",
+    "pvpRelevant": true,
+    "tags": [
+      "펜타곤",
+      "2026 신규",
+      "각성 형태"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "완벽한 함정",
+        "type": "액티브"
+      },
+      {
+        "name": "섭리의 조율",
+        "type": "액티브"
+      },
+      {
+        "name": "신묘한 지능",
+        "type": "패시브"
+      },
+      {
+        "name": "구원의 힘",
+        "type": "각성"
+      }
+    ],
+    "star": 7,
+    "cardBg": "04",
+    "cardBadge": "01"
+  },
+  {
+    "id": "키리엘",
+    "name": "키리엘",
+    "grade": "전설",
+    "position": "마법형",
+    "pvpRelevant": true,
+    "tags": [
+      "루미너스 혁명단"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "레굴루스",
+        "type": "액티브"
+      },
+      {
+        "name": "유성우",
+        "type": "액티브"
+      },
+      {
+        "name": "별의 축제",
+        "type": "패시브"
+      }
+    ],
+    "star": 6,
+    "cardBg": "04",
+    "cardBadge": "01"
+  },
+  {
+    "id": "타카",
+    "name": "타카",
+    "grade": "전설",
+    "position": "공격형",
+    "pvpRelevant": true,
+    "tags": [
+      "나이트크로우",
+      "나이트 크로우"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "바람의 칼날",
+        "type": "액티브"
+      },
+      {
+        "name": "죽음의 무도",
+        "type": "액티브"
+      },
+      {
+        "name": "매의 발톱",
+        "type": "패시브"
+      }
+    ],
+    "star": 6,
+    "cardBg": "04"
+  },
+  {
+    "id": "태오",
+    "name": "태오",
+    "grade": "전설",
+    "position": "공격형",
+    "role": "0티어 만능 딜러(결투장·레이드 전천후)",
+    "pvpRelevant": true,
+    "tags": [
+      "(구)사황"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "흑풍참",
+        "type": "액티브"
+      },
+      {
+        "name": "흑익만월참",
+        "type": "액티브"
+      },
+      {
+        "name": "까마귀 눈동자",
+        "type": "패시브"
+      }
+    ],
+    "star": 6,
+    "cardBg": "04",
+    "cardBadge": "01"
+  },
+  {
+    "id": "트루드",
+    "name": "트루드",
+    "grade": "전설",
+    "position": "만능형",
+    "pvpRelevant": true,
+    "tags": [
+      "천상의 수호자"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "한 방이면 끝!",
+        "type": "액티브"
+      },
+      {
+        "name": "놀아 볼까!",
+        "type": "액티브"
+      },
+      {
+        "name": "전투의 희열",
+        "type": "패시브"
+      }
+    ],
+    "star": 6,
+    "cardBg": "04",
+    "cardBadge": "01"
+  },
+  {
+    "id": "파스칼",
+    "name": "파스칼",
+    "grade": "전설",
+    "position": "마법형",
+    "pvpRelevant": true,
+    "tags": [
+      "어둠의 안식처"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "어둠의 문",
+        "type": "액티브"
+      },
+      {
+        "name": "파괴의 거인",
+        "type": "액티브"
+      },
+      {
+        "name": "천자의 권능",
+        "type": "패시브"
+      }
+    ],
+    "star": 6,
+    "cardBg": "04"
+  },
+  {
+    "id": "파이",
+    "name": "파이",
+    "grade": "전설",
+    "position": "공격형",
+    "pvpRelevant": null,
+    "tags": [
+      "(구)세븐나이츠",
+      "합성 전용 획득"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "아그니아의 창",
+        "type": "액티브"
+      },
+      {
+        "name": "염룡의 연주",
+        "type": "액티브"
+      },
+      {
+        "name": "솟구치는 불꽃",
+        "type": "패시브"
+      }
+    ],
+    "star": 6,
+    "cardBg": "04",
+    "cardBadge": "03"
+  },
+  {
+    "id": "팔라누스",
+    "name": "팔라누스",
+    "grade": "전설",
+    "position": "만능형",
+    "pvpRelevant": true,
+    "tags": [
+      "다크나이츠"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "강고한 검격",
+        "type": "액티브"
+      },
+      {
+        "name": "작전명 : 섬멸",
+        "type": "액티브"
+      },
+      {
+        "name": "지휘관의 저력",
+        "type": "패시브"
+      }
+    ],
+    "star": 6,
+    "cardBg": "04",
+    "cardBadge": "01"
+  },
+  {
+    "id": "프레이야",
+    "name": "프레이야",
+    "grade": "전설",
+    "position": "마법형",
+    "pvpRelevant": true,
+    "tags": [
+      "천상의 수호자"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "고결한 금풍",
+        "type": "액티브"
+      },
+      {
+        "name": "금빛 검우",
+        "type": "액티브"
+      },
+      {
+        "name": "아름다운 지배자",
+        "type": "패시브"
+      }
+    ],
+    "star": 6,
+    "cardBg": "04",
+    "cardBadge": "01"
+  },
+  {
+    "id": "플라튼",
+    "name": "플라튼",
+    "grade": "전설",
+    "position": "지원형",
+    "role": "서포터",
+    "pvpRelevant": true,
+    "tags": [
+      "다크나이츠"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "심판대행",
+        "type": "액티브"
+      },
+      {
+        "name": "이계의 빛",
+        "type": "액티브"
+      },
+      {
+        "name": "네스트라의 가호",
+        "type": "패시브"
+      }
+    ],
+    "star": 6,
+    "cardBg": "04",
+    "cardBadge": "01"
+  },
+  {
+    "id": "각성 하연",
+    "name": "각성 하연",
+    "grade": "전설",
+    "position": "지원형",
+    "tags": [
+      "경계의 수호자"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "귀결박",
+        "type": "액티브"
+      },
+      {
+        "name": "봉월문",
+        "type": "액티브"
+      },
+      {
+        "name": "심연의 고행자",
+        "type": "패시브"
+      },
+      {
+        "name": "봉천문",
+        "type": "각성"
+      }
+    ],
+    "star": 7,
+    "cardBg": "04",
+    "cardBadge": "01",
+    "pvpRelevant": true
+  },
+  {
+    "id": "각성 헤브니아",
+    "name": "각성 헤브니아",
+    "grade": "희귀",
+    "position": "공격형",
+    "pvpRelevant": true,
+    "tags": [
+      "에반 원정대",
+      "각성 형태"
+    ],
+    "role": "딜러",
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "검의 심판",
+        "type": "액티브"
+      },
+      {
+        "name": "맹렬한 공격",
+        "type": "액티브"
+      },
+      {
+        "name": "마법 포착",
+        "type": "패시브"
+      },
+      {
+        "name": "유성 폭발",
+        "type": "각성"
+      }
+    ],
+    "star": 7,
+    "cardBg": "03"
+  },
+  {
+    "id": "각성 헬레니아",
+    "name": "각성 헬레니아",
+    "grade": "희귀",
+    "position": "방어형",
+    "role": "탱커",
+    "pvpRelevant": true,
+    "tags": [
+      "에반 원정대",
+      "각성 형태"
+    ],
+    "skills": [
+      {
+        "name": "기본 공격",
+        "type": "기본"
+      },
+      {
+        "name": "하늘의 빛",
+        "type": "액티브"
+      },
+      {
+        "name": "하늘의 방패",
+        "type": "액티브"
+      },
+      {
+        "name": "발키리의 저력",
+        "type": "패시브"
+      },
+      {
+        "name": "구원의 축복",
+        "type": "각성"
+      }
+    ],
+    "star": 7,
+    "cardBg": "03"
+  }
+]

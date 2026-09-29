@@ -1,0 +1,85 @@
+name = "sena-guild-search"
+main = "worker.js"
+compatibility_date = "2024-11-01"
+
+# 이 워커는 외부 API 키를 쓰지 않는다 — AI 작업은 전부 Workers AI(아래 [ai] 바인딩)로 돈다.
+#
+# ★ 시크릿은 하나 있다: ADMIN_PW (워커 최고권한 — 관리자를 전부 잃었을 때의 복구 수단).
+#   예전 주석은 '시크릿이 없다'고 적고 있었는데 코드는 env.ADMIN_PW 를 쓴다. 그걸 믿으면
+#   바꿔야 할 대상이 있다는 것조차 모르게 된다. 바꾸는 법:
+#     node -e "console.log(require('crypto').randomBytes(24).toString('base64url'))"
+#     npx wrangler secret put ADMIN_PW        (위에서 나온 값을 붙여 넣는다)
+#   사람이 외울 만한 비번을 쓰지 말 것 — 시도 제한은 IP 단위라 긴 난수가 진짜 방어다.
+#   (옛 소프트 관리자 비번의 SHA-256 이 공개 저장소 이력에 남아 있다. 같은 값을 쓰고
+#    있었다면 반드시 바꿀 것)
+
+# 공유 데이터(카운터덱·영웅·가이드·통계) 저장용 KV. 아래 명령으로 만들고 출력된 id를 넣으세요:
+#   npx wrangler kv namespace create GUILD_KV
+[[kv_namespaces]]
+binding = "GUILD_KV"
+id = "a31934f6fd8d46d7bc45039f1d1b8d93"
+
+# 캡처 점수 읽기(/ocr)·학습(/learn)용 Workers AI. 무료 할당량(하루 10,000뉴런) 안에서 동작.
+[ai]
+binding = "AI"
+
+# 자동 학습 루틴 — 매일 06:00 KST 에 라운지 새 공략을 학습한다.
+# ★ Cloudflare cron 은 UTC 기준이라 21:00 UTC = 다음날 06:00 KST.
+# 밤사이 올라온 글까지 모아 아침에 브리핑이 준비돼 있게 하는 시각이다.
+#
+# 더 자주 돌리기 전에 Workers AI 무료 할당량(하루 10,000뉴런)을 먼저 확인할 것 —
+# 1회 실행에 글 최대 6개 × 비전 1회 + 종합 1~2회가 든다.
+[triggers]
+crons = ["0 21 * * *"]
+
+# ===== 호출 제한 (Workers Rate Limiting) =====
+#
+# ★ 예전 로그인 제한은 시도마다 KV 에 list·put 을 했다. KV 무료 한도는 하루 쓰기
+#   1,000회·list 1,000회라, 계정 없이 틀린 로그인 약 1,000번이면 그날(UTC) 로그인과
+#   **모든 저장**이 멈췄다 — 막으려던 공격보다 큰 구멍이었다. 이 바인딩은 KV 를 안 쓴다.
+#   (워커 주소가 *.workers.dev 라 대시보드의 존 단위 Rate Limiting 규칙은 걸 곳이 없다)
+#
+# 위치(데이터센터)마다 따로 세는 느슨한 카운터다. 정확한 회계용이 아니라 '퍼붓기'를 끊는 용도.
+# period 는 10 또는 60(초)만 된다. namespace_id 는 계정 안에서 겹치지 않는 숫자 문자열.
+# 바인딩이 없으면(배포 전·지원 안 되는 요금제) 코드는 예전 방식으로 돌아간다 — worker.js 의 rl() 참고.
+
+# /auth/* 전체 — IP 단위. 관리자 화면이 한 번에 몇 번씩 부르므로 넉넉히.
+[[ratelimits]]
+name = "RL_AUTH"
+namespace_id = "7101"
+  [ratelimits.simple]
+  limit = 30
+  period = 60
+
+# 비번을 실제로 맞춰 보는 요청 — 로그인(닉), 비번 변경(계정), 워커 시크릿(IP).
+[[ratelimits]]
+name = "RL_CRED"
+namespace_id = "7102"
+  [ratelimits.simple]
+  limit = 5
+  period = 60
+
+# 공유 데이터 저장 — 길드원 한 명당. 저장은 1.2초 몰아치기지만 운영진이 점수를 한 명씩
+# 넣으면 2초에 한 번꼴로 나간다. 20 으로 잡았다가 점수 입력이 막히는 걸 계산으로 확인하고 올렸다.
+# KV 하루 한도는 이것이 아니라 worker.js 의 MEMBER_DAILY_SAVES(일반 길드원 하루 상한)가 지킨다.
+[[ratelimits]]
+name = "RL_WRITE"
+namespace_id = "7103"
+  [ratelimits.simple]
+  limit = 60
+  period = 60
+
+# Workers AI 를 부르는 요청 (/ocr, /learn 진단) — 길드원 한 명당.
+# 캡처는 한 장씩 차례로 보내고(ScoreImport 의 runMany) 서버 판독이 장당 4~7초라 분당 10~15장이 한계다.
+# 넘치면 화면이 브라우저 판독(tesseract)으로 떨어질 뿐 기능이 죽지는 않는다.
+[[ratelimits]]
+name = "RL_AI"
+namespace_id = "7104"
+  [ratelimits.simple]
+  limit = 15
+  period = 60
+
+# 누가 무엇을 했는지 남길 곳. 워커에 console.log 가 없고 이 설정도 없어서, 사고가 나도
+# 되짚을 기록이 전혀 없었다. (Workers Logs — 대시보드의 워커 > Logs 에서 본다)
+[observability]
+enabled = true

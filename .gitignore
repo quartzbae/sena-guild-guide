@@ -1,0 +1,17 @@
+node_modules/
+dist/
+*.tsbuildinfo
+.wrangler/
+# wrangler tail 출력 — 실제 요청 로그가 그대로 담긴다. 저장소에 올리지 않는다.
+worker/tail.log
+*.log
+worker/node_modules/
+*.local
+.DS_Store
+.claude/settings.local.json
+
+# 공유 데이터 백업 내려받기용 — 길드원 실명·점수가 들어 있어 저장소에 올리지 않는다
+backup-*/
+# wrangler dev 의 로컬 시크릿 파일 — 지금은 --var 로 넘기지만, 파일로 옮기면 그대로 커밋될 수 있다
+.dev.vars
+.dev.vars.*
